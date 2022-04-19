@@ -3,10 +3,24 @@
     <head>
         <title>Rock, Paper, Scissors!</title>
         <meta charset="UTF-8">
+        <script src="./rps_gui.js" defer></script>
     </head>
     <body>
         <h1>Rock, Paper, Scissors!</h1>
         <h3>Five rounds match!</h3>
-        <script src="script.js"></script>
+
+        <div class="score">
+            <div class="player"></div>
+            <div class="CPU"></div>
+        </div>
+        
+        <div class="buttonContainer">
+            <button data-choice="rock" class="choice">Rock</button>
+            <button data-choice="paper" class="choice">Paper</button>
+            <button data-choice="scissors" class="choice">Scissors</button>
+            <button class="resetGame">Start Over</button>
+        </div>
+        
+
     </body>
 </html>
